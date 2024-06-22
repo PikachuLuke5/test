@@ -19,6 +19,11 @@
         "mimeType": "image/x-mkcd-f4",
         "displayName": "myImage0"
     },
+    "image5": {
+        "data": "hwQQABAAAAAAAO4OiO7uAADsu+t3xusOwExEuy5mvg7AREVE7nLoy7xERETrYsjLTERERORizMRMREVE5HLsxEtERETkcujES0VEVORy6ORLRERE5GLs5EtERETkYuzku1REROtyzOSwRFRE7mLo5LBLRLQuxr4OAOxL63bM6w4AAOwOiO7uAA==",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "myImage1"
+    },
     "anim1": {
         "namespace": "myAnimations",
         "id": "anim1",
@@ -37,6 +42,12 @@
         "data": "0078000408020100001c00010a006400f401640000040000000000000000000000000005000004240000000400012c08000c0001270c001000012a18001c00012a20002400012728002c00012a",
         "mimeType": "application/mkcd-song",
         "displayName": "song",
+        "namespace": "mySongs."
+    },
+    "song2": {
+        "data": "0064000408020108001c000e050046006603320000040a002d0000006400140001320002010002180000000400012a04000800012708000c000124100014000124",
+        "mimeType": "application/mkcd-song",
+        "displayName": "DIE",
         "namespace": "mySongs."
     },
     "*": {

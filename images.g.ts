@@ -183,6 +183,25 @@ b b b b b b b b b b b b b b b b
 . . . . . . . . . . . . . . . . 
 . . . . . . . . . . . . . . . . 
 `;
+            case "image5":
+            case "myImage1":return img`
+. . . . c c c b b b b b . . . . 
+. . c c b 4 4 4 4 4 4 b b b . . 
+. c c 4 4 4 4 4 5 4 4 4 4 b c . 
+. e 4 4 4 4 4 4 4 4 4 5 4 4 e . 
+e b 4 5 4 4 5 4 4 4 4 4 4 4 b c 
+e b 4 4 4 4 4 4 4 4 4 4 5 4 4 e 
+e b b 4 4 4 4 4 4 4 4 4 4 4 b e 
+. e b 4 4 4 4 4 5 4 4 4 4 b e . 
+8 7 e e b 4 4 4 4 4 4 b e e 6 8 
+8 7 2 e e e e e e e e e e 2 7 8 
+e 6 6 2 2 2 2 2 2 2 2 2 2 6 c e 
+e c 6 7 6 6 7 7 7 6 6 7 6 c c e 
+e b e 8 8 c c 8 8 c c c 8 e b e 
+e e b e c c e e e e e c e b e e 
+. e e b b 4 4 4 4 4 4 4 4 e e . 
+. . . c c c c c e e e e e . . . 
+`;
         }
         return null;
     })
@@ -294,6 +313,8 @@ b b b b b b b b b b b b b b b b
         switch(helpers.stringTrim(name)) {
             case "song1":
             case "song":return hex`0078000408020100001c00010a006400f401640000040000000000000000000000000005000004240000000400012c08000c0001270c001000012a18001c00012a20002400012728002c00012a`;
+            case "song2":
+            case "DIE":return hex`0064000408020108001c000e050046006603320000040a002d0000006400140001320002010002180000000400012a04000800012708000c000124100014000124`;
         }
         return null;
     })
